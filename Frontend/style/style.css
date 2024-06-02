@@ -1,0 +1,378 @@
+/* Reset styles and basic styling */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.box h2{
+    color: #008080;;
+}
+/* Navbar styles */
+.navbar {
+    background-color:#008080; /* Dark  color */
+    padding: 10px;
+}
+.nav-logo h1{
+    color: #E09145;
+}
+.navbar-nav li a {
+    color: #E09145; /* Link color */
+    font-size: 18px; /* Font size */
+    font-weight: bold; /* Bold text */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.navbar-nav li a:hover {
+    color: #FCD9B8; /* Change color on hover */
+}
+
+.navbar-brand img {
+    height: 50px; /* Adjust logo height */
+    width: auto; /* Maintain aspect ratio */
+}
+
+.navbar-toggler-icon {
+    color: #E09145; /* Toggler color */
+}
+
+.navbar-toggler {
+    border: none; /* Remove border */
+}
+
+.nav-search .btn {
+    color: #E09145;
+    border: 2px solid #E09145;
+    border-radius: 10px;
+}
+
+.nav-search .btn:hover {
+    color: #FCD9B8;
+}
+
+.form-control {
+    width: 250px; /* Adjust search input width */
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #292C35; /* Dark background color */
+    position: fixed;
+    top: 0;
+    left: -250px; /* Initially hide the sidebar */
+    transition: left 0.3s ease;
+}
+
+
+.navbar .nav-items .charity-tag {
+    display: none;
+}
+.sidebar.active {
+    left: 0; /* Show the sidebar when active */
+}
+.box2 .btn a{
+    text-decoration: none;
+  color: #E09145;
+}
+.box2 .btn:hover{
+  border-color: #E09145;
+}
+.box3{
+    margin-top: 60px;
+}
+/* Content styles */
+.content {
+    margin-left: 250px; /* Adjust content area to make space for the sidebar */
+    padding-top: 60px; /* Ensure content doesn't overlap with navbar */
+}
+.box3 .carousel{
+    width:70%;
+    height:60vh;
+    padding:50px;
+}
+/* Carousel styles */
+.box3 #carouselExampleCaptions {
+    padding: 10px 1px;
+}
+.box3 .carousel-item {
+    height: 60vh;
+}
+.box3 .carousel-item img {
+    object-fit: cover;
+    height: 100%; /* Ensure the image covers the entire carousel item */
+    width: 100%;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 992px) {
+    .form-control {
+        width: 200px;
+    }
+
+    .content {
+        margin-left: 0; /* Adjust content area for smaller screens */
+    }
+
+    .sidebar {
+        left: -250px; /* Hide the sidebar by default for smaller screens */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .form-control {
+        width: 150px;
+    }
+
+    .carousel-item {
+        height: 60vh; /* Adjust carousel item height for smaller screens */
+    }
+}
+
+.box2 {
+    width: 100%;
+    height: 85vh;
+    background: url("https://t3.ftcdn.net/jpg/05/71/23/78/240_F_571237843_iCr1W1DkJdv0yiRQBGB1aariybBBLE3D.jpg");
+    background-size:100% 100%;
+    position: relative; /* Ensure the absolute positioning of the overlay */
+}
+.box2{
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 50px;
+    padding-top: 120px;
+}
+.title{
+    color: white;
+    width:600px;
+    float:left;
+    line-height: 40px;
+    font-size: 50px;
+}
+.sub-title{
+    color: white;
+    width:600px;
+    float:left;
+    line-height: 40px;
+    font-size: 18px;
+}
+.box2 button{
+    color:#E09145;
+    border:2px solid #E09145;
+    width:150px
+}
+body {
+    font-family: 'Noto Sans', sans-serif;
+    padding: 40px 0;
+}
+h2 {
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+    font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	position: relative;
+	margin: 30px 0 60px;
+}
+h2::after {
+	content: "";
+	width: 140px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: #db584e;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+    opacity: .8;
+}
+.col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+.carousel {
+	margin: 50px auto;
+	padding: 0 70px;
+}
+.carousel-item {
+	color: #999;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 290px;
+}
+.carousel .item .img-box {
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {
+	padding: 30px 0 10px;
+}
+.carousel .overview {	
+	font-style: italic;
+}
+.carousel .overview b {
+	text-transform: uppercase;
+	color: #db584e;
+}
+.carousel .carousel-control {
+	width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+	background: none;
+}
+.carousel-control i {
+    font-size: 68px;
+	line-height: 42px;
+    position: absolute;
+    display: inline-block;
+	color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.carousel .carousel-indicators {
+	bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	margin: 1px 3px;
+	border-radius: 50%;
+}
+.carousel-indicators li {	
+	background: #999;
+	border-color: transparent;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.carousel-indicators li.active {	
+	background: #555;		
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.fa-angle-left,.fa-angle-right{
+    color:black;
+    font-size: 50px;
+}
+.items{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.items .item {
+    padding:20px;
+    width: 26%;
+    height: 60%;
+    border-radius: 16px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    /* Add box shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the shadow color and strength as needed */
+    transition: box-shadow 0.3s ease; /* Add transition for smoother effect */
+}
+.item-title{
+    margin-top: 6px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.item img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 16px;
+}
+
+.item:hover {
+    transform: scale(1.05);
+    /* Increase shadow on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjust the shadow color and strength as needed */
+}
+.box .item {
+    position: relative; /* Ensure positioning context */
+}
+.box .item .charity-tag {
+   position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color:  #E09145; /* Red background color */
+    color: white; /* White text color */
+    padding: 5px 10px; /* Padding for the tag */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 14px; /* Font size */
+}
+
+
+.item-desc {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.item-price {
+    color: #292C35; /* Price color */
+    font-size: 20px; /* Price font size */
+    margin-bottom: 5px; /* Add space between price and button */
+}
+
+.buy-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #E09145; /* Orange background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Centered text */
+    text-decoration: none;
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.buy-button img {
+    width: 20px; /* Adjust image size */
+    margin-right: 5px; /* Add space between image and text */
+}
+.footer {
+    background-color:#008080;
+    color: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 20px; /* Adjust the bottom padding as needed *//* Position the footer */
+    width: 100%; /* Occupy full width of the viewport */
+    bottom: 0; /* Stick the footer to the bottom */
+}
+
+.footer h5 {
+    color: #E09145;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
