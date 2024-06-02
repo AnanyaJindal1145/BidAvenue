@@ -17,3 +17,12 @@ This web-based application is designed for collectors and hobbyists to buy, sell
 1. Clone the repository
 2. In the backend folder, install node modules in both the client and server folder using the npm i command.
 3. Using npm start command start server and open index.html with live server.
+
+### Preview
+![image](https://github.com/AnanyaJindal1145/BidAvenue/assets/118926116/b87c695d-0d9e-426d-b469-b6109edf950a)
+
+![image](https://github.com/AnanyaJindal1145/BidAvenue/assets/118926116/ff93bea6-4c52-4437-b14e-535f6198d91e)
+
+![image](https://github.com/AnanyaJindal1145/BidAvenue/assets/118926116/d04c96db-36ac-4389-be3e-58b965d73f79)
+
+![image](https://github.com/AnanyaJindal1145/BidAvenue/assets/118926116/7c7511fa-e8b0-4a67-ac46-6c2474171761)
