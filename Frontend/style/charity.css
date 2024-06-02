@@ -14,7 +14,7 @@ body{
     padding:20px 150px;
 }
 .hero-section {
-    background: url('./image.webp');
+    background: url('../assets/image.webp');
     background-size: cover;
     background-position: center;
     height: 400px; /* Adjust height as needed */
