@@ -26,4 +26,3 @@ This web-based application is designed for collectors and hobbyists to buy, sell
 ![image](https://github.com/AnanyaJindal1145/BidAvenue/assets/118926116/d04c96db-36ac-4389-be3e-58b965d73f79)
 
 ![image](https://github.com/AnanyaJindal1145/BidAvenue/assets/118926116/7c7511fa-e8b0-4a67-ac46-6c2474171761)
-abcdef
